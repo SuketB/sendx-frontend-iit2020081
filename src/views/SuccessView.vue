@@ -33,7 +33,7 @@ import Button from '../components/ui/Button.vue';
                 this.$store.dispatch('updateOptionsAction', {afterDisplay:this.afterDisplay, closePopupAfter:this.closePopupAfter})
                 const dataToSend = this.$store.state
                 console.log(dataToSend)
-                const url = 'http://localhost:8080/api/configuration'
+                const url = 'https://sendx-frontend-iit2020081.onrender.com/api/configuration'
                 const requestOpt = {
                     method: 'POST',
                     headers:{
