@@ -1,29 +1,54 @@
-# sendx-frontend-iit2020081
+<h3 align="center">sendx-frontend-iit2020081</h3>
+<p align="center">Visit <a href="https://imaginative-entremet-765ae3.netlify.app/">Here.</a></p>
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Overview
+This is the frontend application developed as the part of the evaluation conducted by Sendx. It allows user to build dynamic HTML templates.  
 
-## Customize configuration
+## Table of Contents
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+1. [Technologies](#technologies)
+2. [Features](#features)
+    - [Required Features](#required-features) 
+    - [Good To Have](#good-to-have)
+    - [Great To Have](#great-to-have)
+      
 
-## Project Setup
+## Technologies
 
-```sh
-npm install
-```
+* Frontend framework: VueJs
+* Backend: NodeJS, ExpressJs
+* Other major plugin/packages: Tailwind, Vuex, Vue email editor
 
-### Compile and Hot-Reload for Development
+## Features
 
-```sh
-npm run dev
-```
+### Required Features
 
-### Compile and Minify for Production
+1. **Navigation Bar**: Implemented
+   - Developed an identical navigation bar as provided in the design.
 
-```sh
-npm run build
-```
+2. **Design And Content Screen**: Implemented
+   - Developed a design screen and sample templates to select from and the content screen where user can edit the choosen template.
+
+3. **Screens For User Input**: Implemented
+   - Developed behaviour input as well as success screen.
+
+### Good To Have
+
+1. **API Endpoint To Send User Details**: Implemented
+   
+   - Developed a simple server in NodeJS using ExpressJS and exposed an POST API route (/api/configuration) to recieve user details.
+   - Integrated vuex to store all the generated html, behavioural and sucess input and send it to the exposed API
+
+### Great To Have 
+
+1. **Integrate Vue Email Editor**: Implemented 
+   - Integrated vue-email-editor in the content screen and provided one actual HTML template to edit in the design screen.
+   - Allows user to easily edit the HTML template and export the final HTML and ultimately send it over the exposed API.
+
+
+
+
+<h4 align="center">Made with ❤️ By Suket Bhola</h4> 
