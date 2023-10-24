@@ -39,10 +39,10 @@ export default {
 </script>
 
 <template>
-  <div class="pt-8">
+  <div class="pt-8 h-screen">
     <div class="mb-5">
-      <h2>Select Form Type</h2>
-      <p>What kind of form would you like to create?</p>
+      <div class="font-mediun">Select Form Type</div>
+      <p class="light-description">What kind of form would you like to create?</p>
     </div>
     <div class="flex justify-between items-center pb-8" style="borderBottom: 2px solid #969696;">
       <FormCard

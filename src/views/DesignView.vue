@@ -11,16 +11,22 @@
         data(){
             return {
                 templates: [
-                    {name: 'Intro Bar', path:'/landing-page.png', orientation: 'left-center'},
-                     {name: 'Intro Bar', path:'/landing-page.png', orientation: 'left-center'},
-                      {name: 'Intro Bar', path:'/landing-page.png', orientation: 'left-center'},
-                       {name: 'Intro Bar', path:'/landing-page.png', orientation: 'left-center'},
-                        {name: 'Intro Bar', path:'/landing-page.png', orientation: 'left-center'},
-                         {name: 'Intro Bar', path:'/landing-page.png', orientation: 'left-center'},
-                          {name: 'Intro Bar', path:'/landing-page.png', orientation: 'left-center'},
-                           {name: 'Intro Bar', path:'/landing-page.png', orientation: 'left-center'},
-                            {name: 'Intro Bar', path:'/landing-page.png', orientation: 'left-center'},
-                             {name: 'Intro Bar', path:'/landing-page.png', orientation: 'left-center'}
+                    {name: 'Modal takeover modern retro', path:'/template_html.png', orientation: 'left-center'},
+                    {name: 'Modal takeover modern retro', path:'/template_html.png', orientation: 'left-center'},
+                    {name: 'Modal takeover modern retro', path:'/template_html.png', orientation: 'left-center'},
+                    {name: 'Modal takeover modern retro', path:'/template_html.png', orientation: 'left-center'},
+                    {name: 'Modal takeover modern retro', path:'/template_html.png', orientation: 'left-center'},
+                    {name: 'Modal takeover modern retro', path:'/template_html.png', orientation: 'left-center'},
+                    {name: 'Modal takeover modern retro', path:'/template_html.png', orientation: 'left-center'},
+                    {name: 'Modal takeover modern retro', path:'/template_html.png', orientation: 'left-center'},
+                    {name: 'Modal takeover modern retro', path:'/template_html.png', orientation: 'left-center'},
+                    {name: 'Modal takeover modern retro', path:'/template_html.png', orientation: 'left-center'},
+                    {name: 'Modal takeover modern retro', path:'/template_html.png', orientation: 'left-center'},
+                    {name: 'Modal takeover modern retro', path:'/template_html.png', orientation: 'left-center'},
+                    {name: 'Modal takeover modern retro', path:'/template_html.png', orientation: 'left-center'},
+                    {name: 'Modal takeover modern retro', path:'/template_html.png', orientation: 'left-center'},
+                    {name: 'Modal takeover modern retro', path:'/template_html.png', orientation: 'left-center'},
+                    
                 ]
             }
         },

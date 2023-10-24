@@ -28,13 +28,19 @@
 
 .button:hover::before {
   transform: scaleX(1);
+  color: #fff;
 }
 
 .button-content {
   position: relative;
   z-index: 1;
+  
 }
 
+
+.button:hover{
+  color: white !important;
+}
 .button::before {
   content: '';
   position: absolute;
@@ -45,7 +51,8 @@
   width: 100%;
   height: inherit;
   border-radius: inherit;
-  background: rgb(97,165,250);
+  background: #1f3a8a;
+  color: white !important;
   transition: all 0.475s;
 }
 </style>

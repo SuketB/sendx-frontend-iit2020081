@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col pt-8">
+    <div class="flex flex-col pt-8 h-screen">
         <div class="font-medium">What happends after displaying success screen?</div>
     <p class="mb-3 light-description">This is the screen visitors see after successfully submitting your form.</p>
    <div class="flex items-center mb-4">

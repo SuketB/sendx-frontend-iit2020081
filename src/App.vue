@@ -3,7 +3,7 @@
 <template>
   
  <Header/>
- <div class="bg-[#f3f4f6] h-full flex justify-center py-8">
+ <div class="bg-[#f3f4f6] flex justify-center py-8">
    <RouterView/>
  </div>
 
