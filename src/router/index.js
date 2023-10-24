@@ -19,7 +19,7 @@ const router = createRouter({
     },
     {
       path: '/content',
-      redirect: '/content/landing-page.png'
+      redirect: '/content/landing-page.png',
     },
     {
       path: '/content/:img',
@@ -28,8 +28,7 @@ const router = createRouter({
     },
     {
       path: '/targetting',
-      name: 'targetting',
-      component: () => import('../views/TargettingView.vue'),
+      redirect: '/behaviour',
     },
     {
       path: '/behaviour',
@@ -41,6 +40,7 @@ const router = createRouter({
       name: 'success',
       component: () => import('../views/SuccessView.vue'),
     },
+   
   ],
 })
 

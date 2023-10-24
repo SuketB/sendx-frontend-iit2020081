@@ -1,17 +1,19 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import Header from './components/header/Header.vue';
-</script>
+
 
 <template>
   
  <Header/>
- <div class="bg-[#f3f4f6] h-full flex  justify-center pb-8">
+ <div class="bg-[#f3f4f6] h-full flex justify-center py-8">
    <RouterView/>
  </div>
 
 </template>
 
-<style scoped>
+<script>
+import {  RouterView } from 'vue-router'
+import Header from './components/header/Header.vue';
+  export default{
+    components:{Header}
+  }
+</script>
 
-</style>
